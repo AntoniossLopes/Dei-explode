@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="4" nextobjectid="9">
+ <tileset firstgid="1" name="Sprite002" tilewidth="32" tileheight="32" tilecount="3" columns="3">
+  <image source="newtry/assets/Sprite002.png" width="96" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="collides" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer id="1" name="Base" width="15" height="15">
+  <data encoding="csv">
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+</data>
+ </layer>
+ <layer id="2" name="Norm" width="15" height="15">
+  <data encoding="csv">
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,3,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,3,
+3,0,0,1,1,0,0,1,1,0,1,1,0,0,3,
+3,0,0,1,1,0,0,1,0,0,1,1,0,0,3,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,3,
+3,0,0,1,0,0,1,0,0,1,0,1,0,0,3,
+3,0,0,1,1,0,0,1,1,0,0,1,0,0,3,
+3,0,0,0,1,0,0,0,0,0,1,1,0,0,3,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,3,
+3,0,0,1,1,0,0,1,1,0,1,1,0,0,3,
+3,0,0,1,1,0,0,1,0,0,1,1,0,0,3,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,3,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+</data>
+ </layer>
+ <objectgroup id="3" name="Spawns">
+  <object id="5" name="Spawn1" x="65" y="63">
+   <point/>
+  </object>
+  <object id="6" name="Spawn3" x="417" y="63">
+   <point/>
+  </object>
+  <object id="7" name="Spawn2" x="415" y="416">
+   <point/>
+  </object>
+  <object id="8" name="Spawn4" x="63" y="414">
+   <point/>
+  </object>
+ </objectgroup>
+</map>
