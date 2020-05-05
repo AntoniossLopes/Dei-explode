@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="15" height="15" tilewidth="32" tileheight="32" infinite="0" nextlayerid="7" nextobjectid="256">
+ <tileset firstgid="1" name="Sprite002" tilewidth="32" tileheight="32" tilecount="3" columns="3">
+  <image source="Sprite002.png" width="96" height="32"/>
+  <tile id="0">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="collides" type="bool" value="false"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="collides" type="bool" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer id="1" name="Walkable" width="15" height="15">
+  <data encoding="csv">
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,
+2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+</data>
+ </layer>
+ <layer id="2" name="Walls" width="15" height="15">
+  <data encoding="csv">
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,3,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,3,
+3,0,0,1,1,0,0,0,0,0,1,1,0,0,3,
+3,0,0,1,0,0,0,0,0,0,0,1,0,0,3,
+3,0,0,0,0,1,1,0,1,1,0,0,0,0,3,
+3,0,0,0,0,1,0,0,0,1,0,0,0,0,3,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,3,
+3,0,0,0,0,1,0,0,0,1,0,0,0,0,3,
+3,0,0,0,0,1,1,0,1,1,0,0,0,0,3,
+3,0,0,1,0,0,0,0,0,0,0,1,0,0,3,
+3,0,0,1,1,0,0,0,0,0,1,1,0,0,3,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,3,
+3,0,0,0,0,0,0,0,0,0,0,0,0,0,3,
+3,3,3,3,3,3,3,3,3,3,3,3,3,3,3
+</data>
+ </layer>
+ <objectgroup id="3" name="Spawns" visible="0">
+  <object id="5" name="Spawn1" x="65" y="63">
+   <point/>
+  </object>
+  <object id="6" name="Spawn3" x="417" y="63">
+   <point/>
+  </object>
+  <object id="7" name="Spawn2" x="415" y="416">
+   <point/>
+  </object>
+  <object id="8" name="Spawn4" x="63" y="414">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="4" name="Destructible">
+  <object id="188" name="Destructible11" x="47.3333" y="146.667">
+   <point/>
+  </object>
+  <object id="189" name="Destructible12" x="80" y="150">
+   <point/>
+  </object>
+  <object id="190" name="Destructible13" x="84" y="186">
+   <point/>
+  </object>
+  <object id="191" name="Destructible14" x="81.3333" y="214">
+   <point/>
+  </object>
+  <object id="192" name="Destructible15" x="83.3333" y="244.667">
+   <point/>
+  </object>
+  <object id="193" name="Destructible18" x="80" y="279.333">
+   <point/>
+  </object>
+  <object id="194" name="Destructible19" x="79.3333" y="314.667">
+   <point/>
+  </object>
+  <object id="195" name="Destructible20" x="84" y="340">
+   <point/>
+  </object>
+  <object id="196" name="Destructible21" x="46.6667" y="344">
+   <point/>
+  </object>
+  <object id="197" name="Destructible25" x="436.667" y="153.333">
+   <point/>
+  </object>
+  <object id="199" name="Destructible26" x="400" y="156.667">
+   <point/>
+  </object>
+  <object id="200" name="Destructible27" x="400.667" y="190">
+   <point/>
+  </object>
+  <object id="201" name="Destructible28" x="404" y="211.333">
+   <point/>
+  </object>
+  <object id="202" name="Destructible29" x="404.667" y="246">
+   <point/>
+  </object>
+  <object id="203" name="Destructible30" x="400" y="282.667">
+   <point/>
+  </object>
+  <object id="204" name="Destructible31" x="400" y="318">
+   <point/>
+  </object>
+  <object id="205" name="Destructible32" x="405.333" y="344">
+   <point/>
+  </object>
+  <object id="206" name="Destructible33" x="433.333" y="346">
+   <point/>
+  </object>
+  <object id="207" name="Destructible43" x="345.333" y="436.667">
+   <point/>
+  </object>
+  <object id="208" name="Destructible42" x="340" y="409.333">
+   <point/>
+  </object>
+  <object id="209" name="Destructible40" x="282" y="400.667">
+   <point/>
+  </object>
+  <object id="210" name="Destructible41" x="303.333" y="399.333">
+   <point/>
+  </object>
+  <object id="212" name="Destructible39" x="236.667" y="395.333">
+   <point/>
+  </object>
+  <object id="213" name="Destructible38" x="208" y="398">
+   <point/>
+  </object>
+  <object id="214" name="Destructible47" x="170.667" y="397.333">
+   <point/>
+  </object>
+  <object id="215" name="Destructible36" x="149.333" y="398">
+   <point/>
+  </object>
+  <object id="216" name="Destructible37" x="150" y="425.333">
+   <point/>
+  </object>
+  <object id="217" name="Destructible1" x="148" y="58">
+   <point/>
+  </object>
+  <object id="218" name="Destructible2" x="145.333" y="89.3333">
+   <point/>
+  </object>
+  <object id="219" name="Destructible3" x="172" y="86">
+   <point/>
+  </object>
+  <object id="221" name="Destructible4" x="204.667" y="78">
+   <point/>
+  </object>
+  <object id="222" name="Destructible5" x="240" y="82">
+   <point/>
+  </object>
+  <object id="223" name="Destructible6" x="271.333" y="77.3333">
+   <point/>
+  </object>
+  <object id="224" name="Destructible7" x="309.333" y="78">
+   <point/>
+  </object>
+  <object id="225" name="Destructible8" x="332" y="82">
+   <point/>
+  </object>
+  <object id="226" name="Destructible9" x="339.333" y="50">
+   <point/>
+  </object>
+  <object id="227" name="Destructible22" x="242" y="119.333">
+   <point/>
+  </object>
+  <object id="228" name="Destructible35" x="246.667" y="368.667">
+   <point/>
+  </object>
+  <object id="229" name="Destructible16" x="114" y="242.667">
+   <point/>
+  </object>
+  <object id="230" name="Destructible10" x="364.667" y="247.333">
+   <point/>
+  </object>
+  <object id="231" name="Destructible23" x="242" y="150.667">
+   <point/>
+  </object>
+  <object id="232" name="Destructible17" x="144.667" y="247.333">
+   <point/>
+  </object>
+  <object id="233" name="Destructible24" x="337.333" y="246.667">
+   <point/>
+  </object>
+  <object id="234" name="Destructible34" x="244" y="335.333">
+   <point/>
+  </object>
+  <object id="247" name="Destructible49" x="208" y="114">
+   <point/>
+  </object>
+  <object id="248" name="Destructible48" x="274" y="120">
+   <point/>
+  </object>
+  <object id="249" name="Destructible46" x="368" y="204">
+   <point/>
+  </object>
+  <object id="250" name="Destructible50" x="370" y="270.667">
+   <point/>
+  </object>
+  <object id="251" name="Destructible44" x="118" y="206.667">
+   <point/>
+  </object>
+  <object id="252" name="Destructible45" x="114.667" y="280.667">
+   <point/>
+  </object>
+  <object id="254" name="Destructible51" x="272" y="369.333">
+   <point/>
+  </object>
+  <object id="255" name="Destructible52" x="210.667" y="365.333">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="PowerUp">
+  <object id="235" name="PowerUp1" x="242" y="53.3333">
+   <point/>
+  </object>
+  <object id="236" name="PowerUp4" x="45.3333" y="242">
+   <point/>
+  </object>
+  <object id="237" name="PowerUp5" x="438" y="246">
+   <point/>
+  </object>
+  <object id="238" name="PowerUp6" x="238" y="436.667">
+   <point/>
+  </object>
+  <object id="239" name="PowerUp9" x="204.667" y="216">
+   <point/>
+  </object>
+  <object id="240" name="PowerUp10" x="277.333" y="216">
+   <point/>
+  </object>
+  <object id="241" name="PowerUp12" x="272" y="275.333">
+   <point/>
+  </object>
+  <object id="242" name="PowerUp11" x="206" y="276">
+   <point/>
+  </object>
+  <object id="243" name="PowerUp2" x="146.667" y="156">
+   <point/>
+  </object>
+  <object id="244" name="PowerUp7" x="142.667" y="334">
+   <point/>
+  </object>
+  <object id="245" name="PowerUp3" x="337.333" y="156.667">
+   <point/>
+  </object>
+  <object id="246" name="PowerUp8" x="339.333" y="332.667">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="Lava" visible="0">
+  <object id="157" name="Lava1" x="237.333" y="242.667">
+   <point/>
+  </object>
+  <object id="158" name="Lava2" x="175.333" y="118.666">
+   <point/>
+  </object>
+  <object id="159" name="Lava3" x="306" y="116">
+   <point/>
+  </object>
+  <object id="160" name="Lava4" x="114" y="182">
+   <point/>
+  </object>
+  <object id="162" name="Lava5" x="111.334" y="307.333">
+   <point/>
+  </object>
+  <object id="163" name="Lava6" x="369.333" y="177.334">
+   <point/>
+  </object>
+  <object id="164" name="Lava7" x="368" y="308">
+   <point/>
+  </object>
+  <object id="165" name="Lava8" x="175.334" y="373.333">
+   <point/>
+  </object>
+  <object id="166" name="Lava9" x="305.333" y="374">
+   <point/>
+  </object>
+  <object id="167" name="Lava16" x="50.6667" y="211.333">
+   <point/>
+  </object>
+  <object id="168" name="Lava18" x="51.3333" y="274">
+   <point/>
+  </object>
+  <object id="169" name="Lava21" x="427.333" y="216">
+   <point/>
+  </object>
+  <object id="170" name="Lava23" x="436.667" y="273.333">
+   <point/>
+  </object>
+  <object id="171" name="Lava12" x="210" y="438">
+   <point/>
+  </object>
+  <object id="173" name="Lava19" x="50.6667" y="309.333">
+   <point/>
+  </object>
+  <object id="174" name="Lava15" x="48" y="186.667">
+   <point/>
+  </object>
+  <object id="175" name="Lava20" x="437.333" y="177.333">
+   <point/>
+  </object>
+  <object id="177" name="Lava24" x="438.667" y="306.667">
+   <point/>
+  </object>
+  <object id="178" name="Lava10" x="176" y="52.6667">
+   <point/>
+  </object>
+  <object id="179" name="Lava11" x="209.333" y="50.6667">
+   <point/>
+  </object>
+  <object id="181" name="Lava13" x="274" y="54">
+   <point/>
+  </object>
+  <object id="182" name="Lava14" x="304" y="52.6667">
+   <point/>
+  </object>
+  <object id="184" name="Lava25" x="176.667" y="437.333">
+   <point/>
+  </object>
+  <object id="185" name="Lava22" x="272.667" y="437.333">
+   <point/>
+  </object>
+  <object id="186" name="Lava17" x="306" y="433.333">
+   <point/>
+  </object>
+ </objectgroup>
+</map>
